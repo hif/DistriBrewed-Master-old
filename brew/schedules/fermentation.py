@@ -1,5 +1,5 @@
 #!/usr/bin python
-from brew.schedules.schedule import Schedule
+from brew.schedules.schedule import Schedule, convert_f2c
 
 
 class FermentationStep:

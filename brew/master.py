@@ -1,10 +1,10 @@
 #!/usr/bin python
-from core.workers.baseworker import *
-import core.utils.logging as log
+from distribrewed.core.workers.baseworker import *
+import distribrewed.core.utils.logging as log
 from session.models import SessionDetail, Worker, Measurement
 from twisted_brew.models import Command
 from django.utils import timezone as dt
-from core.comm.connection import MasterConnection, CONNECTION_MASTER_QUEUE, PushConnection
+from distribrewed.core.comm.connection import MasterConnection, CONNECTION_MASTER_QUEUE, PushConnection
 from django.conf import settings
 
 class Master(threading.Thread):

@@ -3,9 +3,9 @@
 from django.core.management.base import BaseCommand, CommandError
 from django.utils import translation
 
-from core.utils import coreutils
-import core.defaults as defaults
-import core.utils.logging as log
+from distribrewed.core.utils import coreutils
+import distribrewed.core.defaults as defaults
+import distribrewed.core.utils.logging as log
 from brew.master import Master
 
 

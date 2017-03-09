@@ -1,6 +1,6 @@
 #!/usr/bin python
 import html
-from brew.schedules.schedule import Schedule
+from brew.schedules.schedule import Schedule, convert_o2g, units
 
 Hop = 'Hop'
 Misc = 'Misc'

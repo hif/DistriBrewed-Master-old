@@ -15,9 +15,9 @@ from rest_framework import viewsets
 from twisted_brew.models import Command,  Message
 from session.models import Measurement
 from brew.master import Master
-from core.messages import MessagePong
-import core.utils.logging as log
-from core.utils.dateutils import *
+from distribrewed.core.messages import MessagePong
+import distribrewed.core.utils.logging as log
+from distribrewed.core.utils.dateutils import *
 from twisted_brew.serializers import MessageSerializer, CommandSerializer
 
 

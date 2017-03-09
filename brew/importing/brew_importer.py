@@ -1,7 +1,7 @@
 #!/usr/bin python
 import importlib
 from brew import brew_import
-import core.utils.coreutils as coreutils
+import distribrewed.core.utils.coreutils as coreutils
 
 class ImporterRegistration():
     def __init__(self, index, display_name):
