@@ -57,7 +57,7 @@ Get the latest version of TwistedBrew, unzip it, rename and clean up
 
 Install required packages
 
-    sudo pip install -r twistedbrew/requirements.txt
+    sudo pip install -r requirements.txt
 
 
 ##Usefull information
