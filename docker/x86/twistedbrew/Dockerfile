@@ -8,6 +8,7 @@ ENV PROJECT_DIR /twisted_brew
 COPY . ${PROJECT_DIR}
 WORKDIR ${PROJECT_DIR}
 
+RUN pip install -r core/requirements.txt
 RUN pip install -r requirements.txt
 
 VOLUME ${PROJECT_DIR}/database
