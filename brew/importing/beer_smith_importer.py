@@ -5,9 +5,9 @@ from brew.importing.brew_importer import BrewImporter
 from brew.importing.beer_smith_parser import *
 import distribrewed.core.utils.logging as log
 from brew.models import Brew, BrewSection, BrewStep
-from brew.schedules import MashSchedule
-from brew.schedules import BoilSchedule
-from brew.schedules import FermentationSchedule
+from brew.schedules.mash import MashSchedule
+from brew.schedules.boil import BoilSchedule
+from brew.schedules.fermentation import FermentationSchedule
 
 
 class BeerSmithImporter(BrewImporter):

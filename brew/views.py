@@ -5,7 +5,7 @@ from django.template import RequestContext
 from django.shortcuts import render_to_response
 from brew.models import Brew, BrewSection, BrewStep
 from brew.importing import brew_importer
-import core.utils.logging as log
+import distribrewed.core.utils.logging as log
 from rest_framework import viewsets
 from brew.serializers import BrewSerializer, BrewSectionSerializer, BrewStepSerializer
 

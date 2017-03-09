@@ -6,6 +6,7 @@ from twisted_brew.models import Command
 from django.utils import timezone as dt
 from distribrewed.core.comm.connection import MasterConnection, CONNECTION_MASTER_QUEUE, PushConnection
 from django.conf import settings
+from django.core import serializers
 
 class Master(threading.Thread):
 
